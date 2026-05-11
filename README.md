@@ -2,8 +2,12 @@
 > AI-Powered Social Media Caption Generator
 
 <img width="1896" height="1069" alt="darkTheme" src="https://github.com/user-attachments/assets/7bc65452-f015-4448-943f-9d236e85cda5" />
+
 <img width="1817" height="788" alt="darkthemee" src="https://github.com/user-attachments/assets/3b866a69-f1f5-4bad-ae1b-6e6e97b1090e" />
+
 <img width="1219" height="762" alt="lightThemee" src="https://github.com/user-attachments/assets/ce23ea6d-4a90-46fc-aef8-8aa1aab37e5b" />
+
+
 
 A sleek, modern web app that generates creative social media captions using AI. Just drop your idea, pick a vibe, and let the AI do the magic.
 
