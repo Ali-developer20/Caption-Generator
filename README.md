@@ -5,7 +5,7 @@
 
 <img width="1817" height="788" alt="darkthemee" src="https://github.com/user-attachments/assets/3b866a69-f1f5-4bad-ae1b-6e6e97b1090e" />
 
-![Uploading lightTheme.png…]()
+<img width="1894" height="1077" alt="lightTheme" src="https://github.com/user-attachments/assets/9be912b0-f959-4fed-b95b-32be338b2370" />
 
 
 
