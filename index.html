@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caption.Lab</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-[#050505] text-[#ecfdf5] min-h-screen flex items-center justify-center p-4 font-sans transition-colors duration-500">
+    <div id="mainCard" class="bg-[#0a0a0a] border-2 border-[#10b981] p-8 rounded-none shadow-[12px_12px_0px_0px_rgba(16,185,129,0.3)] w-full max-w-2xl relative overflow-hidden">
+        
+        <header class="flex justify-between items-center mb-10 border-b-2 border-[#10b981]/20 pb-4">
+            <h1 class="text-3xl font-black uppercase tracking-tighter text-[#10b981]">Caption.Lab</h1>
+            <button id="themeToggle" class="w-10 h-10 border border-[#10b981] hover:bg-[#10b981] hover:text-black transition-all flex items-center justify-center">🌙</button>
+        </header>
+
+        <div class="space-y-6">
+            <div>
+                <label class="block text-[10px] font-black uppercase tracking-[0.2em] mb-2 text-[#34d399]">Vibe Profile</label>
+                <select id="toneSelector" class="w-full bg-black border border-[#10b981] p-3 text-sm text-[#10b981] focus:ring-2 focus:ring-[#10b981] outline-none cursor-pointer">
+                    <option value="witty">Viral / Edgy</option>
+                    <option value="professional">Corporate / LinkedIn</option>
+                    <option value="short">Minimalist / Aesthetic</option>
+                </select>
+            </div>
+
+            <textarea id="userInput" placeholder="DROP YOUR POST IDEA HERE..." class="w-full h-40 bg-black border border-[#10b981] p-4 text-[#10b981] placeholder-[#064e3b] focus:bg-[#062019] transition-all outline-none resize-none font-mono text-sm"></textarea>
+        </div>
+
+        <div class="grid grid-cols-3 gap-4 mt-8">
+            <button id="generateBtn" class="col-span-2 bg-[#10b981] text-black font-black p-4 uppercase hover:translate-x-1 hover:translate-y-1 active:translate-x-0 active:translate-y-0 transition-all">Generate Magic</button>
+            <button id="clearBtn" class="border border-red-500 text-red-500 font-bold p-4 uppercase hover:bg-red-500 hover:text-white transition-all">Clear</button>
+        </div>
+
+        <div id="loadingIndicator" class="hidden mt-6 text-center animate-pulse font-mono text-[#10b981] text-xs">-- CALCULATING_CAPTIONS --</div>
+        
+        <div id="resultBox" class="hidden mt-8 border-t-2 border-[#10b981] pt-6 animate-in slide-in-from-bottom-4 duration-500">
+            <div class="bg-[#111] border-l-4 border-[#10b981] p-5 italic text-lg text-white" id="responseText"></div>
+            <div class="flex justify-between items-center mt-4">
+                <button id="copyBtn" class="text-[10px] font-black uppercase underline decoration-[#10b981] hover:text-[#10b981] transition-colors">Copy to Clipboard</button>
+                <span class="text-[10px] text-[#10b981]/50 font-mono">CAPT_ID: 2026-X</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
